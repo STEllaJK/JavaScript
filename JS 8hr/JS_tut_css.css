@@ -1,0 +1,163 @@
+/* challenge 1: Your Age in Days */
+.container-1 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black; 
+    align-items: center;
+}
+
+
+/* challenge 2: cat Generator */
+.container-2 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.flex-box-container-2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img {
+    height: 200px;
+    width: 20% ;
+    box-shadow: 0px 10px 50px rgba(0,0,0, 0.7);
+    margin: 10px;
+}
+
+/* challenge 3: Rock, Paper, Scissors */
+.container-3 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+
+.flex-box-rps {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgb(46, 38, 40);
+}
+
+/* style flex-box-rps divs */
+
+
+
+
+/* container-4 Change the Color of All Buttons! */
+.container-4 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-pick-color {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* container-5 Blackjack */
+.container-5 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 500px;
+}
+
+.flex-blackjack-row-1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background: url('../images/blackjack.jpg');
+    color: white;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+.flex-blackjack-row-2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-2 {
+    background: url('../images/blackjack.jpg');
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
